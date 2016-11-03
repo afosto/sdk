@@ -1,5 +1,5 @@
 {
-    "name": "paynl/sdk",
+    "name": "TerraSkye/sdk",
     "require": {
         "php-curl-class/php-curl-class": "^4.8"
     },
