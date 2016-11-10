@@ -70,9 +70,7 @@ class Activate extends Voucher
 
     protected function getData()
     {
-        if(empty($this->_pincode)){
-            throw new ErrorRequired('pincode is niet geset', 1);
-        }else{
+        if(!empty($this->_pincode)){
             $data['pincode'] = $this->_pincode;
         }
         if(empty($this->_cardNumber)){
