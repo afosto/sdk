@@ -24,7 +24,7 @@ class Activate extends Voucher
      */
     private $_amount;
     /**
-     * @var string The PosId that activates the voucher
+     * @var string The PosId that activates the voucher ( reference id )
      */
     private $_posId;
 
